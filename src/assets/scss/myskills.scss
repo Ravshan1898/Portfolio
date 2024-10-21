@@ -1,0 +1,80 @@
+.myskills {
+  margin-bottom: 50px;
+  h2 {
+    font-family: Montserrat-Semibold;
+    font-size: 55px;
+    line-height: 80.45px;
+    color: #ffbc2d;
+    margin-top: 30px;
+  }
+  .myskills_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    h3 {
+      width: 800px;
+      font-family: Montserrat-Regular;
+      font-size: 25px;
+      line-height: 31px;
+      text-align: center;
+      color: white;
+    }
+  }
+  .myskills_icon_box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    .myskill_icon {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #ffbc2d;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      margin-top: 35px;
+      .Html {
+        width: 45px;
+        height: 45px;
+        color: #ff5733;
+      }
+      .Css {
+        width: 45px;
+        height: 45px;
+        color: #2196f3;
+      }
+      .Js {
+        width: 45px;
+        height: 45px;
+        color: #f7df1e;
+      }
+      .React {
+        width: 45px;
+        height: 45px;
+        color: #61dbfb;
+      }
+      .Sass {
+        width: 45px;
+        height: 45px;
+        color: #cc6699;
+      }
+      .Ts {
+        width: 45px;
+        height: 45px;
+        color: #2b74de;
+      }
+      .Node {
+        width: 45px;
+        height: 45px;
+        color: #43a047;
+      }
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

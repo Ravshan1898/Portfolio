@@ -1,0 +1,16 @@
+nav {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background: #413a3a;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    li,a {
+      font-family:Inter-Semibold;
+      font-size: 22px;
+      color: white;
+    }
+  }
+}

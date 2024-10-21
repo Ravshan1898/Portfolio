@@ -1,0 +1,31 @@
+@import "./nav.scss";
+@import "./fonts.scss";
+@import "./about.scss";
+@import "./myskills.scss";
+@import "./projects.scss";
+@import "./footer.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #202020;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,67 @@
+.about {
+  background: #000000;
+  background-image: url(../images/aboutPage2.png);
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .about_box {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+    .about_info_box {
+      padding-left: 20px;
+      border-left: 1px solid #ffbc2d;
+      h2 {
+        font-family: Inter-Extrobold;
+        font-size: 60px;
+        line-height: 79.88px;
+        color: #ffbc2d;
+        margin-bottom: 35px;
+      }
+      p {
+        font-family: Inter-Light;
+        width: 550px;
+        font-size: 23px;
+        line-height: 27.84px;
+        color: rgba(0, 0, 0, 0.582);
+        margin-bottom: 60px;
+        color: white;
+      }
+      .about_info_mini-box {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        button {
+          width: 220px;
+          height: 55px;
+          border-radius: 18px;
+          border: 1.5px solid #ffbc2d;
+          background: #000;
+          color: white;
+          font-family: Inter-Extrobold;
+          font-size: 16px;
+          line-height: 19.36px;
+          cursor: pointer;
+          transition: 0.5s;
+          &:hover {
+            background: #ffbc2d;
+            border: 1.5px solid #ffbc2d;
+            color: #000;
+          }
+        }
+        span {
+          font-family: Inter-Extrobold;
+          font-size: 22px;
+          line-height: 26.63px;
+          display: flex;
+          align-items: center;
+          color: white;
+          .about_icon {
+            color: rgb(7, 255, 7);
+          }
+        }
+      }
+    }
+  }
+}
