@@ -100,20 +100,28 @@
     .myskills_box {
       h3 {
         font-size: 20px;
+        gap: 5px !important;
       }
       margin: 20px;
     }
     .myskill_icon {
+      width: 55px !important;
+      height: 55px !important;
       margin: 10px !important;
-    }
-    .myskills_icon_box {
-      justify-content: center;
+
+      svg {
+        width: 30px !important;
+        height: 30px !important;
+      }
     }
   }
-  .projects {
-    h2 {
-      font-size: 45px;
-    }
+  .myskills_icon_box {
+    justify-content: center;
+  }
+}
+.projects {
+  h2 {
+    font-size: 45px;
   }
 }
 
@@ -146,6 +154,80 @@
       span {
         font-size: 12px !important;
       }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .project_box {
+    margin: 0 auto;
+  }
+  .project_card {
+    width: 250px !important;
+    height: 350px !important;
+    h3 {
+      text-align: center;
+      margin-right: -48px;
+    }
+    img {
+      width: 250px !important;
+      height: 350px !important;
+    }
+  }
+  .myskills {
+    margin-bottom: 10px !important;
+  }
+  .projects {
+    h2 {
+      margin-top: 0px !important;
+    }
+  }
+  .about_box {
+    .about_info_box {
+      h2 {
+        font-size: 27px !important;
+      }
+      p {
+        font-size: 13px !important;
+        line-height: 15px !important;
+      }
+      .about_info_mini-box {
+        flex-direction: column;
+        button {
+          width: 100px !important;
+          height: 30px !important;
+          border-radius: 5px !important;
+        }
+      }
+    }
+  }
+  .myskills {
+    h2 {
+      font-size: 35px;
+      margin-top: 10px;
+    }
+    h3 {
+      font-size: 14px !important;
+      margin-bottom: 5px !important;
+      line-height: 16px;
+    }
+  }
+  .projects {
+    h2 {
+      font-size: 35px;
+    }
+  }
+  .contact_card {
+    width: 250px !important;
+    h2 {
+      font-size: 15px !important;
+    }
+    a {
+      font-size: 13px !important;
+    }
+    svg {
+      width: 20px !important;
+      height: 20px !important;
     }
   }
 }

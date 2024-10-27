@@ -16,7 +16,7 @@ const About: React.FC = () => {
       <div className="container">
         <div className="about_box">
           <div className="about_info_box">
-            <h2>Ravshan Shakirov</h2>
+            <h2 className="h2">Ravshan Shakirov</h2>
             <p>
               Ravshan Shakirov i’m a front-end developer based in Tashkent,
               Uzbekistan. I have developed many types of front-ends from
